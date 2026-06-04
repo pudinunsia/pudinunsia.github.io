@@ -1,13 +1,249 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PUDIN UNSIA</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  </head>
-  <body>
-    <h1>Hello, Pudin Unsia!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
+<!DOCTYPE html>
+    <html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Curriculum Vitae Pudin</title>
+        <!-- Bootstrap CSS -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <style>
+            body {
+                background-color: #f5f5f5;
+            }
+
+            .profile-img {
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 50%;
+                border: 5px solid white;
+                box-shadow: 0 0 10px rgba(0,0,0,0.3);
+            }
+
+            .gallery-img {
+                height: 200px;
+                object-fit: cover;
+            }
+
+            footer {
+                background-color: #212529;
+                color: white;
+                padding: 20px;
+                text-align: center;
+                margin-top: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+              <a class="navbar-brand" href="#">Curriculum Vitae</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#tentang-saya">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#biodata">Biodata</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#pendidikan">Pendidikan</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skill">Skill</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    <!-- Header -->
+    <div class="container mt-5">
+
+        <div class="text-center">
+            <img src="img/pudin.jpg" class="profile-img" alt="Foto Profil">
+
+            <h1 class="mt-3">Pudin Saepudin Ilham</h1>
+            <h4>250401010001</h4>
+            
+        </div>
+
+        <!-- Tentang Saya -->
+        <!-- Ini adalah bagian deskripsi diri -->
+        <section id="tentang-saya">
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h3 class="text-primary">Tentang Saya</h3>
+        
+                    <p>
+                        Halo, nama saya <b>Pudin Saepudin Ilham</b>. Saya adalah mahasiswa
+                        <b>Universitas Siber Asia</b> yang saat ini sedang menempuh pendidikan pada
+                        semester 2. Saya memiliki minat yang besar dalam bidang teknologi informasi,
+                        khususnya dalam pengelolaan sistem komputer, jaringan, dan pengembangan
+                        keterampilan IT yang dapat diterapkan dalam dunia kerja maupun pendidikan.
+                    </p>
+        
+                    <p>
+                        Dalam pekerjaan sehari-hari, saya berperan sebagai <b>IT Support</b> yang
+                        bertugas membantu guru dan murid dalam proses belajar mengajar di kelas.
+                        Selain itu, saya juga menangani perawatan dan perbaikan perangkat seperti
+                        laptop, printer, serta akses point jaringan agar seluruh fasilitas teknologi
+                        dapat berfungsi dengan baik dan mendukung kegiatan pembelajaran secara optimal.
+                        Saya memiliki semangat belajar yang tinggi, mampu bekerja sama dalam tim,
+                        serta bertanggung jawab dalam menyelesaikan setiap tugas yang diberikan.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Biodata -->
+        <section id="biodata">
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h3 class="text-success">Biodata</h3>
+
+                    <table class="table table-bordered">
+                        <tr>
+                            <th>Nama</th>
+                            <td>Pudin Saepudin Ilham</td>
+                        </tr>
+                        <tr>
+                            <th>NIM</th>
+                            <td>250401010001</td>
+                        </tr>
+                        <tr>
+                            <th>Kelas</th>
+                            <td>IF205</td>
+                        </tr>
+                        <tr>
+                            <th>Prodi</th>
+                            <td>PJJ Informatika</td>
+                        </tr>
+                        <tr>
+                            <th>Mata Kuliah</th>
+                            <td>Pemrograman Web I</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pendidikan -->
+        <section id="pendidikan">
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h3 class="text-danger">Riwayat Pendidikan</h3>
+
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Tahun</th>
+                                <th>Sekolah</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2000 - 2006</td>
+                                <td>SDN 2 Rawa</td>
+                            </tr>
+                            <tr>
+                                <td>2006 - 2009</td>
+                                <td>SMPN 1 Lumbung (Terbuka)</td>
+                            </tr>
+                            <tr>
+                                <td>2009 - 2012</td>
+                                <td>SMA Terpadu Cikanyere</td>
+                            </tr>
+                            <tr>
+                                <td>2025 - Sekarang</td>
+                                <td>Universitas Siber Asia</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skill -->
+        <section id="skill">
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h3 class="text-warning">Skill</h3>
+
+                    <!-- List Pertama -->
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                        <li>JavaScript</li>
+                    </ul>
+
+                    <!-- List Kedua -->
+                    <ol>
+                        <li>Komunikasi</li>
+                        <li>Kerja Sama Tim</li>
+                        <li>Problem Solving</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery -->
+        <section id="gallery">
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h3 class="text-info">Gallery</h3>
+
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <img src="img/galery-1.png" class="img-fluid rounded gallery-img" alt="Gambar 1">
+                        </div>
+
+                        <div class="col-md-4 mb-4">
+                            <img src="img/galery-2.png" class="img-fluid rounded gallery-img" alt="Gambar 2">
+                        </div>
+
+                        <div class="col-md-4 mb-4">
+                            <img src="img/galery-3.png" class="img-fluid rounded gallery-img" alt="Gambar 3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Link -->
+        <div class="card mt-4 mb-5">
+            <div class="card-body">
+                <h3 class="text-secondary">Link Favorit</h3>
+
+                <a href="https://www.google.com" target="_blank" class="btn btn-primary">
+                    Google
+                </a>
+
+                <a href="https://www.w3schools.com/" target="_blank" class="btn btn-danger">
+                    W3schools
+                </a>
+
+                <a href="https://getbootstrap.com/" target="_blank" class="btn btn-dark">
+                    Bootstrap
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 - Curriculum Vitae, Pudin Saepudin Ilham</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    </body>
 </html>
